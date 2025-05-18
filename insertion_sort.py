@@ -14,3 +14,8 @@ def insertionSort(array):
         array[y + 1] = elem
 
     return array
+
+# Array to be sorted
+array = [6, 2, 3, 5, 7, 9, 1, 8]
+# Print array
+print(insertionSort(array))
