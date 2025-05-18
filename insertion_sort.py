@@ -12,7 +12,7 @@ def insertionSort(array):
 
         y = x - 1
 
-        while y >= 0 and elem < array[y]:
+        while y >= 0 and elem > array[y]:
             array[y + 1] = array[y]
             y = y - 1
 
